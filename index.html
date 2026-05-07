@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>EnviroCare Pest &amp; Termite Services | Alabama's Family Pest Control Since 1958</title>
+<meta name="description" content="Family-owned Alabama pest control since 1958. Bi-monthly perimeter pest control, Sentricon® termite protection, mosquito &amp; tick yard treatments. Birmingham, Lake Martin, Auburn &amp; Huntsville.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="hero-family.jpg">
+<link rel="preload" as="image" href="envirocare-logo-clean.png">
+<meta property="og:title" content="EnviroCare Pest &amp; Termite Services | Alabama Since 1958">
+<meta property="og:description" content="Family-owned Alabama pest control. Bi-monthly perimeter pest control, Sentricon® termite protection, mosquito &amp; tick treatments.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"PestControlService","name":"EnviroCare Pest & Termite Services","url":"https://www.envirocarellc.com","telephone":"(205) 649-5278","foundingDate":"1958","description":"Family-owned Alabama pest control since 1958. Bi-monthly perimeter pest control, Sentricon termite protection, mosquito and tick yard treatments.","areaServed":{"@type":"State","name":"Alabama"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"500","bestRating":"5"},"address":[{"@type":"PostalAddress","streetAddress":"2025 Butler Rd","addressLocality":"Alabaster","addressRegion":"AL","postalCode":"35007"},{"@type":"PostalAddress","streetAddress":"1785 Tallapoosa St","addressLocality":"Alexander City","addressRegion":"AL","postalCode":"35010"},{"@type":"PostalAddress","streetAddress":"7027 Old Madison Pike Suite 108","addressLocality":"Huntsville","addressRegion":"AL","postalCode":"35806"}]}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--green:#16A34A;--green-mid:#22C55E;--green-dk:#15803D;--green-deep:#0F5C2E;--green-darkest:#062514;
+--green-lt:#DCFCE7;--green-xlt:#F0FDF4;
+--gold:#EAB308;--gold-dk:#CA8A04;--gold-lt:#FEF3C7;
+--white:#fff;--cream:#FFFDF8;
+--ink:#0A1A0E;--ink-mid:#1E293B;--ink-soft:#475569;
+--border:#BBF7D0;--border-soft:#D1FAE5;
+--r:16px;--sh-sm:0 2px 12px rgba(22,163,74,.09);--sh-md:0 8px 32px rgba(22,163,74,.14)
+}
+html{scroll-behavior:smooth}
+body{font-family:"DM Sans",sans-serif;background:var(--white);color:var(--ink);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* ANN BAR */
+.ann{background:var(--green-deep);color:rgba(255,255,255,.9);font-size:12.5px;font-weight:500;padding:9px 1rem;text-align:center;letter-spacing:.02em}
+.ann strong{color:var(--gold)}
+.ann a{color:var(--gold);text-decoration:none;font-weight:600;margin-left:4px}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(18px);border-bottom:1px solid var(--border-soft);padding:0 clamp(1rem,4vw,3rem)}
+.nav-inner{max-width:1320px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:120px}
+.logo-wrap{width:320px;flex-shrink:0;position:relative;z-index:110;transform-origin:left center;animation:logoIn 1.2s cubic-bezier(0.22,1,0.36,1) forwards;will-change:transform}
+@keyframes logoIn{0%{transform:scale(2.2);opacity:0}25%{opacity:1}100%{transform:scale(1);opacity:1}}
+.logo-wrap a{text-decoration:none;display:block}
+.logo-wrap img{width:100%;height:auto;display:block;filter:drop-shadow(0 2px 8px rgba(15,92,46,.2))}
+.nav-links{display:flex;gap:1.5rem;list-style:none;align-items:center}
+.nav-links a{font-size:13px;font-weight:500;color:var(--ink-mid);text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:var(--green)}
+.nav-right{display:flex;align-items:center;gap:.6rem}
+.nav-login{font-size:12px;font-weight:600;color:var(--green-dk);text-decoration:none;padding:.4rem .75rem;border:1.5px solid rgba(22,163,74,.25);border-radius:50px;transition:all .2s;white-space:nowrap}
+.nav-login:hover{background:var(--green-lt);border-color:var(--green)}
+.nav-phone{font-size:12px;font-weight:600;color:var(--white);background:var(--green-dk);text-decoration:none;padding:.45rem .85rem;border-radius:50px;display:flex;align-items:center;gap:5px;white-space:nowrap;transition:background .2s}
+.nav-phone:hover{background:var(--green-deep)}
+.nav-cta{background:var(--gold);color:var(--ink);border:none;border-radius:50px;padding:.5rem 1.1rem;font-size:12px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block;font-family:"DM Sans",sans-serif;transition:all .2s;white-space:nowrap}
+.nav-cta:hover{background:var(--gold-dk);transform:translateY(-1px)}
+/* hamburger */
+.ham{display:none;background:none;border:none;cursor:pointer;padding:8px}
+.ham span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;transition:all .3s}
+/* mobile nav overlay */
+@media(max-width:1000px){
+.nav-links.show{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--white);border-bottom:2px solid var(--green);padding:1rem 1.5rem;gap:.8rem;box-shadow:0 8px 24px rgba(0,0,0,.1)}
+.nav-links.show a{font-size:15px;padding:.5rem 0}
+}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;background:var(--white);padding:4rem clamp(1rem,4vw,3rem) 4rem}
+.hero-wash{position:absolute;top:0;right:0;bottom:0;width:50%;background:linear-gradient(140deg,var(--green-xlt),var(--green-lt) 50%,#86EFAC);clip-path:polygon(15% 0,100% 0,100% 100%,0 100%);z-index:0;pointer-events:none}
+.hero-inner{position:relative;z-index:10;max-width:1320px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.eyebrow-pill{display:inline-flex;align-items:center;gap:8px;background:var(--green-lt);border:1px solid rgba(22,163,74,.3);border-radius:40px;padding:.35rem .9rem .35rem .6rem;margin-bottom:1.2rem}
+.dot-w{position:relative;width:10px;height:10px;display:flex;align-items:center;justify-content:center}
+.dot-c{width:8px;height:8px;border-radius:50%;background:var(--green-mid);animation:dc 2.2s ease-in-out infinite}
+.dot-r{position:absolute;inset:-4px;border-radius:50%;border:1.5px solid var(--green-mid);animation:dr 2.2s ease-out infinite}
+@keyframes dc{0%,100%{transform:scale(1)}50%{transform:scale(.8);opacity:.7}}
+@keyframes dr{0%{transform:scale(.5);opacity:.9}100%{transform:scale(2.4);opacity:0}}
+.eyebrow-txt{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green-dk)}
+.hero-heritage{font-size:.95rem;color:var(--ink-soft);font-style:italic;margin-bottom:1.4rem}
+.hero h1{font-family:"Playfair Display",serif;font-size:clamp(2.6rem,5vw,4.4rem);font-weight:900;line-height:1.08;color:var(--ink);margin-bottom:1rem;letter-spacing:-.5px}
+.hero h1 em{color:var(--green-dk);font-style:italic;display:block}
+.hero h1 .gd{color:var(--gold-dk)}
+.hero-sub{font-size:1.12rem;line-height:1.7;color:var(--ink-soft);max-width:480px;margin-bottom:1.8rem}
+.cta-row{display:flex;gap:.7rem;flex-wrap:wrap;margin-bottom:2rem}
+.btn-gold{background:var(--gold);color:var(--ink);border:none;border-radius:50px;padding:.85rem 1.8rem;font-family:"DM Sans",sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:all .25s;box-shadow:0 4px 16px rgba(234,179,8,.35)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(234,179,8,.5)}
+.btn-green{background:transparent;color:var(--green-dk);border:2px solid var(--green-dk);border-radius:50px;padding:.82rem 1.5rem;font-family:"DM Sans",sans-serif;font-size:.95rem;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:all .25s}
+.btn-green:hover{background:var(--green-dk);color:var(--white)}
+.stats{display:flex;gap:1.8rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.stat{border-left:3px solid var(--gold);padding-left:.8rem}
+.stat-n{font-family:"Playfair Display",serif;font-size:1.7rem;font-weight:700;color:var(--green-dk);line-height:1}
+.stat-l{font-size:10px;color:var(--ink-soft);letter-spacing:.05em;margin-top:2px;text-transform:uppercase;font-weight:600}
+.badges{display:flex;gap:.5rem;flex-wrap:wrap}
+.badge{display:flex;align-items:center;gap:5px;background:var(--green-lt);border:1px solid rgba(22,163,74,.2);border-radius:8px;padding:.35rem .7rem;font-size:11px;font-weight:500;color:var(--ink-mid)}
+.badge .ck{color:var(--green-dk);font-weight:700;font-size:12px}
+
+/* HERO VISUAL */
+.visual{position:relative}
+.img-frame{border-radius:22px;aspect-ratio:4/3;background:linear-gradient(135deg,var(--green-deep),var(--green-darkest));box-shadow:0 24px 60px rgba(15,92,46,.25);overflow:hidden;position:relative}
+.img-frame img{width:100%;height:100%;object-fit:cover;object-position:center 40%;display:block}
+.img-fade{position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(6,37,20,.35) 100%);pointer-events:none}
+/* glass cards on hero */
+.gc{position:absolute;background:rgba(255,255,255,.96);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.6);border-radius:14px;box-shadow:0 10px 30px rgba(15,92,46,.28);z-index:5;padding:.8rem 1rem}
+.gc-rating{bottom:-18px;left:-22px;display:flex;align-items:center;gap:10px;animation:bob 3.8s ease-in-out infinite}
+.gc-svc{top:-14px;right:-18px;display:flex;flex-direction:column;gap:5px;animation:bob 2.8s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.gc-stars{display:flex;gap:1px;font-size:13px;color:var(--gold)}
+.gc-rn{font-size:1.3rem;font-weight:700;color:var(--ink);font-family:"Playfair Display",serif}
+.gc-rl{font-size:10px;color:var(--ink-soft);white-space:nowrap}
+.gc-row{display:flex;align-items:center;gap:8px}
+.gc-ic{width:32px;height:32px;border-radius:9px;background:var(--green-lt);border:1px solid rgba(22,163,74,.2);display:flex;align-items:center;justify-content:center;color:var(--green-dk)}
+.gc-st{font-size:12px;font-weight:700;color:var(--ink);white-space:nowrap}
+.gc-ss{font-size:9.5px;color:var(--ink-soft);white-space:nowrap}
+.gc-avail{display:inline-flex;align-items:center;gap:4px;background:var(--green-lt);border:1px solid rgba(22,163,74,.2);border-radius:20px;padding:2px 8px;font-size:9px;font-weight:700;color:var(--green-dk);letter-spacing:.06em;text-transform:uppercase}
+
+/* TRUST */
+.trust{background:var(--white);border-top:3px solid var(--gold);border-bottom:1px solid var(--border-soft);padding:1rem clamp(1rem,4vw,3rem)}
+.trust-inner{max-width:1320px;margin:0 auto;display:flex;justify-content:center;gap:2rem;flex-wrap:wrap}
+.ti{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:500;color:var(--ink-soft)}
+.ti-chk{width:18px;height:18px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;font-size:10px;color:white;flex-shrink:0;font-weight:700}
+
+/* SHARED SECTION */
+.section{padding:5rem clamp(1rem,4vw,3rem)}
+.container{max-width:1320px;margin:0 auto}
+.section-eyebrow{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green-dk);background:var(--green-lt);border:1px solid rgba(22,163,74,.2);border-radius:40px;padding:.3rem .8rem;margin-bottom:.8rem}
+.section-title{font-family:"Playfair Display",serif;font-size:clamp(1.8rem,3.2vw,2.8rem);font-weight:900;color:var(--ink);line-height:1.1;margin-bottom:.75rem;letter-spacing:-.3px}
+.section-title span{color:var(--green-dk)}
+.section-sub{font-size:1rem;line-height:1.7;color:var(--ink-soft);max-width:560px}
+
+/* CORE SERVICES — 4 cards on dark bg */
+.programs{background:linear-gradient(180deg,var(--green-deep),var(--green-darkest));padding:5rem clamp(1rem,4vw,3rem);position:relative;overflow:hidden}
+.programs .section-eyebrow{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#86EFAC}
+.programs .section-title{color:var(--white)}
+.programs .section-title span{color:var(--gold)}
+.programs .section-sub{color:rgba(255,255,255,.7);max-width:640px}
+.prog-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem;margin-top:2.5rem}
+.prog-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:1.8rem 1.4rem;transition:all .3s;cursor:pointer;backdrop-filter:blur(8px)}
+.prog-card:hover{background:rgba(255,255,255,.09);transform:translateY(-5px);box-shadow:0 20px 45px rgba(0,0,0,.3)}
+.prog-card.featured{background:linear-gradient(180deg,rgba(234,179,8,.14),rgba(234,179,8,.04));border-color:rgba(234,179,8,.45)}
+.prog-badge{display:inline-block;background:var(--gold);color:var(--ink);font-size:8px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:20px;margin-bottom:.8rem}
+.prog-tag{display:inline-block;background:rgba(255,255,255,.1);color:#fff;font-size:9px;font-weight:700;padding:3px 9px;border-radius:20px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:.6rem}
+.prog-name{font-family:"Playfair Display",serif;font-size:1.3rem;font-weight:700;color:var(--white);margin-bottom:.4rem}
+.prog-desc{font-size:.9rem;line-height:1.65;color:rgba(255,255,255,.7);margin-bottom:.9rem}
+.prog-features{list-style:none;margin-bottom:1.1rem}
+.prog-features li{display:flex;align-items:flex-start;gap:6px;font-size:.86rem;color:rgba(255,255,255,.75);margin-bottom:.35rem}
+.prog-chk{color:#86EFAC;font-size:12px;flex-shrink:0;margin-top:1px;font-weight:700}
+.prog-link{display:inline-flex;align-items:center;gap:5px;font-size:.88rem;font-weight:600;color:var(--gold);text-decoration:none;transition:gap .2s}
+.prog-link:hover{gap:10px}
+
+/* LOCATIONS */
+.loc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem;margin-top:2.5rem}
+.loc-card{border-radius:18px;overflow:hidden;border:1px solid var(--border-soft);box-shadow:var(--sh-sm);transition:all .3s;background:var(--white)}
+.loc-card:hover{transform:translateY(-4px);box-shadow:var(--sh-md);border-color:var(--green)}
+.loc-art{position:relative;height:150px;overflow:hidden;display:flex;align-items:flex-end;padding:1rem}
+.loc-art-1{background:linear-gradient(160deg,#16A34A,#0F5C2E)}
+.loc-art-2{background:linear-gradient(160deg,#22C55E,#15803D)}
+.loc-art-3{background:linear-gradient(160deg,#15803D,#062514)}
+.loc-city-name{position:relative;z-index:2;font-family:"Playfair Display",serif;font-size:1.2rem;font-weight:700;color:var(--white);text-shadow:0 2px 6px rgba(0,0,0,.25)}
+.loc-body{padding:1.2rem 1.3rem 1.4rem}
+.loc-office{font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--green-dk);margin-bottom:.4rem}
+.loc-addr{font-size:.84rem;color:var(--ink-mid);margin-bottom:.5rem;line-height:1.5;font-weight:500}
+.loc-serves{font-size:.78rem;color:var(--ink-soft);margin-bottom:.9rem;line-height:1.5}
+.loc-phone{display:inline-flex;align-items:center;gap:6px;background:var(--green);color:var(--white);font-size:.85rem;font-weight:700;text-decoration:none;padding:.55rem 1.1rem;border-radius:50px;transition:all .2s;width:100%;justify-content:center}
+.loc-phone:hover{background:var(--green-dk)}
+
+/* REVIEWS */
+.reviews-bg{background:var(--green-xlt);overflow:hidden}
+.review-track-wrap{overflow:hidden;margin-top:2rem;padding:1rem 0}
+.review-track{display:flex;gap:1rem;animation:revs 40s linear infinite;width:max-content}
+.review-track:hover{animation-play-state:paused}
+.rev-card{flex:0 0 300px;background:var(--white);border:1px solid var(--border-soft);border-radius:16px;padding:1.3rem;position:relative}
+.rev-stars{display:flex;gap:1px;font-size:14px;color:var(--gold);margin-bottom:.5rem}
+.rev-text{font-size:.84rem;color:var(--ink-mid);line-height:1.6;font-style:italic;margin-bottom:.8rem}
+.rev-who{display:flex;align-items:center;gap:8px}
+.rev-avatar{width:32px;height:32px;border-radius:50%;background:var(--green-lt);color:var(--green-dk);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0}
+.rev-name{font-size:12px;font-weight:600;color:var(--ink)}
+.rev-loc{font-size:10px;color:var(--ink-soft)}
+@keyframes revs{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* BUNDLE SECTION — convenience framing, NO discount claims */
+.bundle{background:var(--green-deep);padding:3rem clamp(1rem,4vw,3rem);text-align:center;color:var(--white)}
+.bundle-title{font-family:"Playfair Display",serif;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:900;margin-bottom:.6rem}
+.bundle-sub{font-size:.95rem;color:rgba(255,255,255,.75);max-width:520px;margin:0 auto 1.5rem}
+.bundle-pills{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.5rem}
+.bundle-pill{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:50px;padding:.45rem 1rem;font-size:.82rem;font-weight:500;color:rgba(255,255,255,.85)}
+
+/* FOOTER */
+footer{background:var(--green-darkest);color:rgba(255,255,255,.65);padding:3rem clamp(1rem,4vw,3rem) 2rem}
+.footer-grid{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2rem}
+.footer-brand strong{color:var(--white);font-size:1rem;display:block;margin-bottom:.5rem}
+.footer-brand{font-size:.84rem;line-height:1.65}
+.footer-phone{color:var(--gold);text-decoration:none;font-size:.84rem;display:block;margin-top:.3rem}
+.footer-head{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:.6rem}
+.footer-links{list-style:none}
+.footer-links li{margin-bottom:.3rem}
+.footer-links a{color:rgba(255,255,255,.6);text-decoration:none;font-size:.84rem;transition:color .2s}
+.footer-links a:hover{color:var(--gold)}
+.footer-bottom{max-width:1320px;margin:0 auto;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;border-top:1px solid rgba(255,255,255,.08);padding-top:1.2rem;font-size:.78rem;color:rgba(255,255,255,.3)}
+.footer-bottom a{color:rgba(255,255,255,.3);text-decoration:none}
+
+/* STICKY MOBILE CTA */
+.mobile-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;background:var(--white);border-top:2px solid var(--green);padding:.5rem .8rem;box-shadow:0 -4px 16px rgba(0,0,0,.1)}
+.mobile-bar-inner{display:flex;gap:.5rem;max-width:500px;margin:0 auto}
+.mb-call{flex:1;background:var(--green);color:var(--white);text-decoration:none;text-align:center;padding:.7rem;border-radius:10px;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:5px}
+.mb-login{flex:1;background:var(--white);color:var(--green-dk);text-decoration:none;text-align:center;padding:.7rem;border-radius:10px;font-size:12px;font-weight:600;border:1.5px solid var(--green);display:flex;align-items:center;justify-content:center;gap:5px}
+
+/* RESPONSIVE */
+@media(max-width:1100px){.prog-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:1000px){
+.hero-inner,.loc-grid{grid-template-columns:1fr}
+.svc-grid{grid-template-columns:repeat(2,1fr)}
+.visual{display:none}
+.nav-links{display:none}
+.ham{display:block}
+.logo-wrap{width:240px}
+.nav-inner{height:100px}
+.hero-wash{display:none}
+.footer-grid{grid-template-columns:1fr 1fr}
+.mobile-bar{display:block}
+body{padding-bottom:70px}
+}
+@media(max-width:600px){
+.hero h1{font-size:2rem}
+.svc-grid,.prog-grid{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr}
+.logo-wrap{width:200px}
+.nav-inner{height:86px}
+.section{padding:3.5rem 1rem}
+.stats{gap:1.2rem}
+.loc-grid{gap:1rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ANN BAR -->
+<div class="ann"><strong>New Customer Special:</strong> $50 off initial pest control. 50% off first mosquito application. Free termite inspection. <a href="tel:2056495278">Call now →</a></div>
+
+<!-- NAV -->
+<nav>
+<div class="nav-inner">
+<div class="logo-wrap">
+<a href="/"><img src="envirocare-logo-clean.png" width="320" height="116" alt="EnviroCare Pest &amp; Termite Services — Alabama's family pest control since 1958" fetchpriority="high"></a>
+</div>
+<ul class="nav-links">
+<li><a href="#services">Services</a></li>
+<li><a href="#locations">Locations</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<div class="nav-right">
+<a href="https://payenvirocare.key7app.com/User/Login" class="nav-login">Customer Login</a>
+<a href="tel:2056495278" class="nav-phone"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.9 11.7a19.79 19.79 0 01-3.07-8.67A2 2 0 013.82 1h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.9a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>(205) 649-5278</a>
+<a href="quote.html" class="nav-cta">Free Quote</a>
+</div>
+<button class="ham" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('show')"><span></span><span></span><span></span></button>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-wash"></div>
+<div class="hero-inner">
+<div>
+<h1>Three Generations<em>Protecting Alabama Homes.</em></h1>
+<div class="hero-heritage">"Family owned since 1958 — the Wedgworth family."</div>
+<p class="hero-sub">Bi-monthly pest control, Sentricon® termite protection, mosquito and tick treatments from three Alabama offices.</p>
+<div class="cta-row">
+<a href="quote.html" class="btn-gold"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>Get a Free Quote</a>
+<a href="tel:2056495278" class="btn-green"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.9 11.7a19.79 19.79 0 01-3.07-8.67A2 2 0 013.82 1h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.9a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Call or Text (205) 649-5278</a>
+</div>
+<div class="stats">
+<div class="stat"><div class="stat-n">68+</div><div class="stat-l">Years in AL</div></div>
+<div class="stat"><div class="stat-n">4.9★</div><div class="stat-l">Google Rating</div></div>
+<div class="stat"><div class="stat-n">3</div><div class="stat-l">AL Offices</div></div>
+</div>
+<div class="badges">
+<div class="badge"><span class="ck">✓</span> Licensed &amp; Insured</div>
+<div class="badge"><span class="ck">✓</span> Sentricon® Certified</div>
+<div class="badge"><span class="ck">✓</span> Fast Response Time</div>
+</div>
+</div>
+<div class="visual">
+<div class="img-frame">
+<img src="hero-family.jpg" alt="Alabama family enjoying their pest-free backyard" style="width:100%;height:100%;object-fit:cover">
+<div class="img-fade"></div>
+</div>
+<div class="gc gc-rating">
+<div><div class="gc-stars">★★★★★</div><div class="gc-rl">500+ verified reviews</div></div>
+<div><div class="gc-rn">4.9</div><div class="gc-rl">Google</div></div>
+</div>
+<div class="gc gc-svc">
+<a href="tel:2056495278" style="text-decoration:none;display:block">
+<div class="gc-row">
+<div class="gc-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+<div><div class="gc-st">Fast Response</div><div class="gc-ss">Usually next business day</div></div>
+</div>
+<div class="gc-avail"><span style="width:6px;height:6px;border-radius:50%;background:var(--green-mid);animation:dc 1.8s ease-in-out infinite"></span> Tap to Call</div>
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- TRUST -->
+<div class="trust">
+<div class="trust-inner">
+<div class="ti"><div class="ti-chk">✓</div>Alabama's Most Trusted Since 1958</div>
+<div class="ti"><div class="ti-chk">✓</div>Licensed, Bonded &amp; Insured</div>
+<div class="ti"><div class="ti-chk">✓</div>3rd-Generation Family Owned</div>
+<div class="ti"><div class="ti-chk">✓</div>100% Satisfaction Guarantee</div>
+<div class="ti"><div class="ti-chk">✓</div>Sentricon® Certified Specialist</div>
+</div>
+</div>
+
+<!-- CORE SERVICES -->
+<section class="programs" id="services">
+<div class="container">
+<div class="section-eyebrow">Our Core Services</div>
+<h2 class="section-title">What We Do — <span>Done Right</span></h2>
+<p class="section-sub">Four core services that cover every Alabama home. Each available individually — or combine them into one simple monthly plan.</p>
+<div class="prog-grid">
+
+<!-- PEST CONTROL -->
+<div class="prog-card">
+<span class="prog-tag">Every-Other-Month</span>
+<div class="prog-name">Pest Control</div>
+<div style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--gold);margin-bottom:.3rem">$70<span style="font-size:.85rem;font-weight:500;color:rgba(255,255,255,.6)"> every 2 months</span></div>
+<div style="font-size:.75rem;color:rgba(255,255,255,.5);margin-bottom:.7rem">6 treatments per year · price may vary by home size</div>
+<div class="prog-desc">Bi-monthly perimeter defense that keeps pests out before they get in. We treat the foundation, entry points, eaves, and garage — interior as needed. Covers 30+ Alabama pests.</div>
+<ul class="prog-features">
+<li><span class="prog-chk">✓</span>Exterior perimeter treatment every 2 months</li>
+<li><span class="prog-chk">✓</span>30+ pests: ants, roaches, spiders, crickets &amp; more</li>
+<li><span class="prog-chk">✓</span>Unlimited free re-service between visits</li>
+<li><span class="prog-chk">✓</span>Family- &amp; pet-safe once dry</li>
+</ul>
+<a href="pest-control.html" class="prog-link">Learn more &amp; schedule →</a>
+</div>
+
+<!-- TERMITE -->
+<div class="prog-card featured">
+<span class="prog-badge">Sentricon® Certified</span>
+<div class="prog-name">Termite Protection</div>
+<div style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--gold);margin-bottom:.3rem">As low as $360<span style="font-size:.85rem;font-weight:500;color:rgba(255,255,255,.6)">/mo</span></div>
+<div style="font-size:.75rem;color:rgba(255,255,255,.5);margin-bottom:.7rem">Price varies by home · free inspection required</div>
+<div class="prog-desc">Sentricon® Always Active™ bait stations around your home's perimeter. No drilling, no chemicals in your soil — just discreet stations that eliminate entire colonies.</div>
+<ul class="prog-features">
+<li><span class="prog-chk">✓</span>Up to $1,000,000 repair coverage</li>
+<li><span class="prog-chk">✓</span>Annual professional inspection</li>
+<li><span class="prog-chk">✓</span>WDO letter for real estate closings</li>
+<li><span class="prog-chk">✓</span>No drilling or trenching required</li>
+</ul>
+<a href="termite-control.html" class="prog-link">Learn more &amp; get inspection →</a>
+</div>
+
+<!-- MOSQUITO -->
+<div class="prog-card">
+<span class="prog-tag">Seasonal · Apr–Oct</span>
+<div class="prog-name">Mosquito Control</div>
+<div style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--gold);margin-bottom:.3rem">As low as $45<span style="font-size:.85rem;font-weight:500;color:rgba(255,255,255,.6)">/mo</span></div>
+<div style="font-size:.75rem;color:rgba(255,255,255,.5);margin-bottom:.7rem">Seasonal · April through October</div>
+<div class="prog-desc">Yard barrier treatment every 21 days during mosquito season. We target breeding areas and harborage spots so you can enjoy your outdoor spaces pest-free.</div>
+<ul class="prog-features">
+<li><span class="prog-chk">✓</span>21-day yard barrier treatments</li>
+<li><span class="prog-chk">✓</span>Breeding site elimination</li>
+<li><span class="prog-chk">✓</span>Pet- &amp; kid-safe once dry</li>
+<li><span class="prog-chk">✓</span>50% off first application (new customers)</li>
+</ul>
+<a href="mosquito-control.html" class="prog-link">Learn more &amp; schedule →</a>
+</div>
+
+<!-- FLEA & TICK -->
+<div class="prog-card featured">
+<span class="prog-badge">Elite Combo</span>
+<div class="prog-name">Flea &amp; Tick Protection</div>
+<div style="font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--gold);margin-bottom:.3rem">As low as $60<span style="font-size:.85rem;font-weight:500;color:rgba(255,255,255,.6)">/mo</span></div>
+<div style="font-size:.75rem;color:rgba(255,255,255,.5);margin-bottom:.7rem">Combined program · price varies by yard size</div>
+<div class="prog-desc">Targeted yard treatments that eliminate fleas and break the tick lifecycle. We treat harborage zones — tall grass, leaf litter, tree lines, and fence rows.</div>
+<ul class="prog-features">
+<li><span class="prog-chk">✓</span>Fleas, Lone Star, Dog &amp; Deer ticks</li>
+<li><span class="prog-chk">✓</span>Harborage-zone targeting</li>
+<li><span class="prog-chk">✓</span>Pet- &amp; kid-safe once dry</li>
+<li><span class="prog-chk">✓</span>Pairs perfectly with mosquito service</li>
+</ul>
+<a href="flea-tick-control.html" class="prog-link">Learn more &amp; schedule →</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ADDITIONAL SERVICES — compact strip, links to full page -->
+<section style="background:var(--cream);padding:2.5rem clamp(1rem,4vw,3rem);border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft)">
+<div class="container" style="text-align:center">
+<div class="section-eyebrow">We Also Handle</div>
+<p style="font-size:1rem;color:var(--ink-mid);margin-bottom:1.2rem;max-width:520px;margin-left:auto;margin-right:auto">Looking for help with a specific pest? We offer additional services for customers who need them.</p>
+<div style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.5rem">
+<span class="badge" style="font-size:12px;padding:.45rem .9rem">Fire Ants</span>
+<span class="badge" style="font-size:12px;padding:.45rem .9rem">Bee &amp; Wasp Removal</span>
+<span class="badge" style="font-size:12px;padding:.45rem .9rem">Rodent Control</span>
+<span class="badge" style="font-size:12px;padding:.45rem .9rem">Earwigs</span>
+<span class="badge" style="font-size:12px;padding:.45rem .9rem">Commercial IPM</span>
+</div>
+<a href="https://www.envirocarellc.com/pest-control-services/" style="display:inline-flex;align-items:center;gap:6px;font-size:.9rem;font-weight:600;color:var(--green-dk);text-decoration:none;border:1.5px solid var(--green-dk);padding:.6rem 1.3rem;border-radius:50px;transition:all .2s" onmouseover="this.style.background='var(--green-dk)';this.style.color='#fff'" onmouseout="this.style.background='transparent';this.style.color='var(--green-dk)'">View All Services →</a>
+</div>
+</section>
+
+<!-- LOCATIONS -->
+<section class="section" id="locations" style="background:var(--white)">
+<div class="container">
+<div class="section-eyebrow">Three Alabama Offices</div>
+<h2 class="section-title">Local Technicians, <span>Statewide Reach</span></h2>
+<p class="section-sub">Your technician is always a neighbor, never dispatched out of state.</p>
+<div class="loc-grid">
+<div class="loc-card">
+<div class="loc-art loc-art-1"><div class="loc-city-name">Birmingham</div></div>
+<div class="loc-body">
+<div class="loc-office">Birmingham Office</div>
+<div class="loc-addr">2025 Butler Rd, Alabaster, AL 35007</div>
+<div class="loc-serves">Birmingham · Hoover · Homewood · Chelsea · Pelham · Alabaster · Vestavia Hills · Mountain Brook · Helena · Calera · Trussville</div>
+<a href="tel:2056495278" class="loc-phone"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.9 11.7a19.79 19.79 0 01-3.07-8.67A2 2 0 013.82 1h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.9a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>(205) 649-5278</a>
+</div>
+</div>
+<div class="loc-card">
+<div class="loc-art loc-art-2"><div class="loc-city-name">Lake Martin / Alex City</div></div>
+<div class="loc-body">
+<div class="loc-office">Alexander City Office</div>
+<div class="loc-addr">1785 Tallapoosa St, Alexander City, AL 35010</div>
+<div class="loc-serves">Alexander City · Lake Martin · Dadeville · Eclectic · Tallassee · Wetumpka</div>
+<a href="tel:2562346162" class="loc-phone"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.9 11.7a19.79 19.79 0 01-3.07-8.67A2 2 0 013.82 1h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.9a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>(256) 234-6162</a>
+</div>
+</div>
+<div class="loc-card">
+<div class="loc-art loc-art-3"><div class="loc-city-name">Huntsville</div></div>
+<div class="loc-body">
+<div class="loc-office">Huntsville Office</div>
+<div class="loc-addr">7027 Old Madison Pike Suite 108, Huntsville, AL 35806</div>
+<div class="loc-serves">Huntsville · Madison · Athens · Decatur · Hartselle · Harvest</div>
+<a href="tel:2569377676" class="loc-phone"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.9 11.7a19.79 19.79 0 01-3.07-8.67A2 2 0 013.82 1h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.9a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>(256) 937-7676</a>
+</div>
+</div>
+</div>
+<p style="text-align:center;margin-top:2.5rem;margin-bottom:.5rem;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green-dk)">We Also Serve</p>
+<div style="display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;max-width:900px;margin:0 auto">
+<span class="badge">Auburn</span><span class="badge">Opelika</span><span class="badge">Homewood</span><span class="badge">Vestavia Hills</span><span class="badge">Mountain Brook</span><span class="badge">Pelham</span><span class="badge">Chelsea</span><span class="badge">Helena</span><span class="badge">Calera</span><span class="badge">Trussville</span><span class="badge">Gardendale</span><span class="badge">Fultondale</span><span class="badge">Leeds</span><span class="badge">Moody</span><span class="badge">Indian Springs</span><span class="badge">Oak Mountain</span><span class="badge">Mt Laurel</span><span class="badge">Highland Lake</span><span class="badge">Wilsonville</span><span class="badge">Dadeville</span><span class="badge">Eclectic</span><span class="badge">Tallassee</span><span class="badge">Wetumpka</span><span class="badge">Athens</span><span class="badge">Decatur</span><span class="badge">Hartselle</span><span class="badge">Harvest</span><span class="badge">Tuscaloosa</span>
+</div>
+</div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section reviews-bg" id="reviews">
+<div class="container">
+<div class="section-eyebrow">Customer Reviews</div>
+<h2 class="section-title">What Alabama Families <span>Are Saying</span></h2>
+<p class="section-sub">500+ verified Google reviews. Real customers, real results.</p>
+</div>
+<div class="review-track-wrap">
+<div class="review-track">
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"I have used EnviroCare for many years — the best pest service we have ever used."</div><div class="rev-who"><div class="rev-avatar">R</div><div><div class="rev-name">Robert M.</div><div class="rev-loc">Lake Martin, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"My husband and I love the service and technicians. Could not recommend more!"</div><div class="rev-who"><div class="rev-avatar">J</div><div><div class="rev-name">Jessica M.</div><div class="rev-loc">Huntsville, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"Very professional, schedules with us, and is always on time."</div><div class="rev-who"><div class="rev-avatar">A</div><div><div class="rev-name">Ann S.</div><div class="rev-loc">Hoover, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"No other pest control company can top the service from EnviroCare!!!"</div><div class="rev-who"><div class="rev-avatar">D</div><div><div class="rev-name">Dariel S.</div><div class="rev-loc">Madison, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"I have been a customer for 10+ years — always great to work with on both my properties."</div><div class="rev-who"><div class="rev-avatar">T</div><div><div class="rev-name">Tim P.</div><div class="rev-loc">Birmingham, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"I value their professionalism and flexibility when scheduling. Always reliable."</div><div class="rev-who"><div class="rev-avatar">M</div><div><div class="rev-name">Mashonda T.</div><div class="rev-loc">Alexander City, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"Excellent service! The technician is always prompt, courteous, and very thorough."</div><div class="rev-who"><div class="rev-avatar">B</div><div><div class="rev-name">Brenda N.</div><div class="rev-loc">Alabaster, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"I have used EnviroCare for many years — the best pest service we have ever used."</div><div class="rev-who"><div class="rev-avatar">R</div><div><div class="rev-name">Robert M.</div><div class="rev-loc">Lake Martin, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"My husband and I love the service and technicians. Could not recommend more!"</div><div class="rev-who"><div class="rev-avatar">J</div><div><div class="rev-name">Jessica M.</div><div class="rev-loc">Huntsville, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"Very professional, schedules with us, and is always on time."</div><div class="rev-who"><div class="rev-avatar">A</div><div><div class="rev-name">Ann S.</div><div class="rev-loc">Hoover, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"No other pest control company can top the service from EnviroCare!!!"</div><div class="rev-who"><div class="rev-avatar">D</div><div><div class="rev-name">Dariel S.</div><div class="rev-loc">Madison, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"I have been a customer for 10+ years — always great to work with on both my properties."</div><div class="rev-who"><div class="rev-avatar">T</div><div><div class="rev-name">Tim P.</div><div class="rev-loc">Birmingham, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"I value their professionalism and flexibility when scheduling. Always reliable."</div><div class="rev-who"><div class="rev-avatar">M</div><div><div class="rev-name">Mashonda T.</div><div class="rev-loc">Alexander City, AL</div></div></div></div>
+<div class="rev-card"><div class="rev-stars">★★★★★</div><div class="rev-text">"Excellent service! The technician is always prompt, courteous, and very thorough."</div><div class="rev-who"><div class="rev-avatar">B</div><div><div class="rev-name">Brenda N.</div><div class="rev-loc">Alabaster, AL</div></div></div></div>
+</div>
+</div>
+</section>
+
+<!-- BUNDLE — CONVENIENCE, NOT DISCOUNT -->
+<div class="bundle">
+<div class="container">
+<div class="bundle-title">Simplify with One Monthly Plan</div>
+<p class="bundle-sub">Combine any of our core services — pest, termite, mosquito, tick — into one plan with one invoice, one technician, and one schedule. No juggling multiple companies.</p>
+<div class="bundle-pills">
+<div class="bundle-pill">Pest + Termite</div>
+<div class="bundle-pill">Pest + Mosquito + Tick</div>
+<div class="bundle-pill">All Four Services</div>
+</div>
+<div style="display:flex;justify-content:center;gap:.8rem;flex-wrap:wrap">
+<a href="tel:2056495278" class="btn-gold">Call to Build Your Plan</a>
+<a href="https://www.envirocarellc.com/bundle-services/" class="btn-green" style="color:var(--white);border-color:rgba(255,255,255,.4)">Learn More →</a>
+</div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<footer id="contact">
+<div class="footer-grid">
+<div class="footer-brand">
+<strong>EnviroCare Pest &amp; Termite Services</strong>
+Family-owned and operated since 1958 — now in its third generation of the Wedgworth family. Serving Alabama from three offices.
+<a href="tel:2056495278" class="footer-phone">Call or Text: (205) 649-5278</a>
+<a href="https://payenvirocare.key7app.com/User/Login" class="footer-phone" style="color:var(--green-mid)">Customer Login / Pay Bill →</a>
+</div>
+<div>
+<div class="footer-head">Core Services</div>
+<ul class="footer-links">
+<li><a href="pest-control.html">Pest Control</a></li>
+<li><a href="termite-control.html">Termite Control</a></li>
+<li><a href="mosquito-control.html">Mosquito Control</a></li>
+<li><a href="flea-tick-control.html">Flea &amp; Tick</a></li>
+<li><a href="https://www.envirocarellc.com/commercial-pest-control/">Commercial</a></li>
+</ul>
+</div>
+<div>
+<div class="footer-head">More Services</div>
+<ul class="footer-links">
+<li><a href="https://www.envirocarellc.com/fire-ant-control/">Fire Ant Control</a></li>
+<li><a href="https://www.envirocarellc.com/bee-wasp-control/">Bee &amp; Wasp</a></li>
+<li><a href="https://www.envirocarellc.com/rodent-control/">Rodent Control</a></li>
+<li><a href="https://www.envirocarellc.com/bed-bug-control/">Bed Bug Treatment</a></li>
+<li><a href="https://www.envirocarellc.com/raccoon-control/">Wildlife Removal</a></li>
+</ul>
+</div>
+<div>
+<div class="footer-head">Offices</div>
+<ul class="footer-links">
+<li><a href="tel:2056495278">Birmingham (205) 649-5278</a></li>
+<li><a href="tel:2562346162">Lake Martin (256) 234-6162</a></li>
+<li><a href="tel:2569377676">Huntsville (256) 937-7676</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>&copy; 2026 EnviroCare Pest &amp; Termite Services LLC. All rights reserved. Licensed in Alabama. Sentricon&reg; Certified Specialist.</span>
+<div style="display:flex;gap:1rem">
+<a href="https://www.envirocarellc.com/privacy-policy/">Privacy Policy</a>
+<a href="https://www.envirocarellc.com/site-map/">Sitemap</a>
+</div>
+</div>
+</footer>
+
+<!-- STICKY MOBILE BAR -->
+<div class="mobile-bar">
+<div class="mobile-bar-inner">
+<a href="tel:2056495278" class="mb-call"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.9 11.7a19.79 19.79 0 01-3.07-8.67A2 2 0 013.82 1h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.9a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Call Now</a>
+<a href="https://payenvirocare.key7app.com/User/Login" class="mb-login"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>Pay Bill</a>
+</div>
+</div>
+
+</body>
+</html>
